@@ -1,0 +1,130 @@
+.proyectosenconjuntocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100rem;
+    margin: 4rem auto;
+    padding: 4rem 0;
+    background-color: #000;
+    border-top: 1px solid #00ffe1;
+    border-bottom: 1px solid #00ffe1;
+}
+
+.proyectosenconjuntocontainer>h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #00ffe1;
+    padding-bottom: .5rem;
+    width: 30rem;
+    text-align: center;
+    color: #00ffe1;
+    margin: 0 0 1rem 0;
+}
+
+/* THE LOBBY */
+.proyectosenconjuntocontainerthelobby {
+    background-color: #000000b5;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    gap: 1rem;
+}
+
+.proyectosenconjuntocontainerthelobby>img {
+    width: 30rem;
+}
+
+.proyectosenconjuntocontainerthelobbytexto {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.proyectosenconjuntocontainerthelobbytexto>h2 {
+    color: #00ffe1;
+    font-size: 2rem;
+}
+
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 350px a 700px */
+@media (min-width: 350px) and (max-width: 700px) {
+
+    .proyectosenconjuntocontainer {
+        background-color: #fff;
+    }
+
+    .proyectosenconjuntocontainer>h3 {
+        font-size: 25px;
+        width: 20rem;
+        text-align: center;
+    }
+
+    /* THE LOBBY */
+    .proyectosenconjuntocontainerthelobby {
+        padding: 1rem;
+        flex-direction: column;
+        background-color: #09092b;
+    }
+
+    .proyectosenconjuntocontainerthelobby>img {
+        width: 20rem;
+    }
+
+    .proyectosenconjuntocontainerthelobbytexto {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 13px;
+    }
+
+    .proyectosenconjuntocontainerthelobbytexto>h2 {
+        color: #5e9188;
+    }
+}
+
+
+/* --------------------------------------------- */
+
+/* Mediaquerys 701px a 1300px */
+@media (min-width: 701px) and (max-width: 1300px) {
+
+    .proyectosenconjuntocontainer>h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* THE LOBBY */
+    .proyectosenconjuntocontainerthelobby {
+        padding: 1rem;
+        background-color: #09092b;
+        width: 100%;
+    }
+
+    .proyectosenconjuntocontainerthelobby>img {
+        width: 23rem;
+    }
+
+    .proyectosenconjuntocontainerthelobbytexto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+        font-size: 13px;
+    }
+
+    .proyectosenconjuntocontainerthelobbytexto>h2 {
+        color: #5e9188;
+    }
+
+}
