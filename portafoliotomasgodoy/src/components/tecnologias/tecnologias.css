@@ -7,7 +7,7 @@
     padding: 2.5rem 0;
     gap: 1rem;
     width: 100%;
-    background-color: #c3c3c3;
+    background: linear-gradient(#c3c3c3, #000)
 }
 
 .sobremitecnologiassubcontainer {
@@ -46,7 +46,6 @@
         padding: 2rem 1rem;
         gap: .5rem;
         width: 100%;
-        margin: 1rem auto 0 auto;
     }
 
     .sobremitecnologiassubcontainer {
@@ -66,12 +65,10 @@
         padding: 2rem .5rem;
         gap: .5rem;
         width: 100%;
-        margin: 1rem auto 0 auto;
     }
 
     .sobremitecnologiassubcontainer {
         display: grid;
         grid-template-columns: 20% 20% 20% 20%;
-        gap: 2rem;
     }
 }

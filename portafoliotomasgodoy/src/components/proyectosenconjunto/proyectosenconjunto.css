@@ -57,7 +57,7 @@
 @media (min-width: 350px) and (max-width: 700px) {
 
     .proyectosenconjuntocontainer {
-        background-color: #fff;
+        width: 100%;
     }
 
     .proyectosenconjuntocontainer>h3 {
@@ -70,7 +70,6 @@
     .proyectosenconjuntocontainerthelobby {
         padding: 1rem;
         flex-direction: column;
-        background-color: #09092b;
     }
 
     .proyectosenconjuntocontainerthelobby>img {
@@ -87,9 +86,6 @@
         font-size: 13px;
     }
 
-    .proyectosenconjuntocontainerthelobbytexto>h2 {
-        color: #5e9188;
-    }
 }
 
 

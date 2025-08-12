@@ -25,7 +25,7 @@
     .misestudioscontainercontainer {
         grid-template-columns: 1fr 1fr;
         width: 95%;
-        gap: .3rem;
+        gap: 1rem;
     }
 
 }
@@ -36,7 +36,7 @@
 @media (min-width: 701px) and (max-width: 1300px) {
 
     .misestudioscontainer {
-        padding: 1rem .3rem;
+        padding: .5rem .3rem;
     }
 
     .misestudioscontainercontainer {

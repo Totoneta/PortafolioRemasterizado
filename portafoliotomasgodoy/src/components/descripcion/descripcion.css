@@ -34,10 +34,9 @@
 /* Mediaquerys 350px a 700px */
 @media (min-width: 350px) and (max-width: 700px) {
     .sobremisoycontainer {
-        padding: 1rem;
+        padding: 1rem .3rem;
         width: 100%;
         height: max-content;
-        margin: 2rem 0 0 0 ;
     }
     
     .sobremisoycontainer>h3 {
@@ -52,13 +51,11 @@
 
 /* --------------------------------------------- */
 
-/* Mediaquerys 701px a 1300px */
-@media (min-width: 701px) and (max-width: 1300px) {
+/* Mediasquerys 701px a 1350px */
+@media (min-width: 701px) and (max-width: 1350px) {
     .sobremisoycontainer {
         padding: 1rem;
-        width: 80%;
         height: max-content;
-        margin: 2rem 0;
     }
     
     .sobremisoycontainer>h3 {
