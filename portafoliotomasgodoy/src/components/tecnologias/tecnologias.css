@@ -3,19 +3,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 2.5rem 0;
-    gap: 1rem;
+    padding: 5rem 0;
+    gap: 2rem;
     width: 100%;
-    background: linear-gradient(#c3c3c3, #000)
 }
 
 .sobremitecnologiassubcontainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    gap: 2.5rem;
+    width: max-content;
+    gap: 4rem;
+}
+
+.sobremitecnologiacontainercard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #4169fb1d;
+    box-shadow: 15px 20px 15px #001048;
+    width: 32rem;
+    height: 22rem;
+    transition: all .3s;
+    transform: skew(-5deg, -5deg);
+}
+
+.sobremitecnologiacontainercard:hover {
+    box-shadow: 5px 5px 20px #001048;
+    transform: skew(0deg, 0deg);
+}
+
+.sobremitecnologiacontainercard>h3 {
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+    font-size: 30px;
 }
 
 .sobremitecnologia {
@@ -32,7 +58,7 @@
 }
 
 .sobremitecnologia:hover {
-    scale: 120%;
+    scale: 105%;
 }
 
 
@@ -59,7 +85,8 @@
 /* --------------------------------------------- */
 
 /* Mediaquerys 701px a 1300px */
-@media (min-width: 701px) and (max-width: 1300px) {    
+@media (min-width: 701px) and (max-width: 1300px) {
+
     /* Tecnologías */
     .sobremitecnologiascontainer {
         padding: 2rem .5rem;

@@ -3,20 +3,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    padding: 2rem 1rem;
-    height: max-content;
-    background-color: #000000;
 }
 
+/* Mostras/Esconder ARROW */
+.navbarshowimg {
+    cursor: pointer;
+    z-index: 10;
+    padding: .3rem;
+    border-radius: 999px;
+    position: fixed;
+    top: .5rem;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #c3c3c3;
+    background-color: #0d0d0d;
+    transition: all .3s;
+}
+.navbarshowimg:hover {
+    background-color: #272727;
+}
+
+/* Mostras/Esconder NAVBAR */
+.invisiblenav {
+    transform: translateY(-10rem);
+}
 /* Lista */
 .navbarcontainerlist {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 10rem;
-    width: 100%;
+    width: 60rem;
+    background-color: #0d0d0d;
+    padding: 1rem 2rem ;
+    border: 1px solid #c3c3c3;
+    border-radius: 40px;
+    transition: all .3s;
+    padding: 1rem 3rem;
+    position: fixed;
+    z-index: 9;
+    top: 1.5rem;
 }
 
 /* Items */
@@ -26,20 +54,19 @@
     justify-content: center;
     align-items: center;
     gap: .3rem;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .navbarcontaineritem>a {
     color: #fff;
-    transition: all .3s;
+    transition: all .2s;
     text-decoration: none;
 }
 
 .navbarcontaineritem>a:hover {
-    color: #00ffe1;
-    scale: 105%;
+    color: #adadad;
 }
 
 /* Mediasquerys 350px a 700px */

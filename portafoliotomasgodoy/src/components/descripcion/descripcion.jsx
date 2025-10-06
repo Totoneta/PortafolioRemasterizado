@@ -3,18 +3,34 @@ import './descripcion.css'
 export function Descripcion() {
 
     return (
-        <div className="sobremisoycontainer">
-            <h3>SOBRE MÍ</h3>
+        <div className="sobremisoycontainer"  id='sobremi'>
             <div className='sobremisoydescripcioncontainer'>
+                <h3>SOBRE MÍ</h3>
                 <span>
-                    <strong>Soy desarrollador especializado en Front-End con sólidos conocimientos en Back-End.</strong>
+                    Soy desarrollador especializado en <strong>Front-End</strong> con sólidos conocimientos en <strong>Back-End.</strong>
                     <br />
-                    Me enfoco en escribir código limpio, reutilizable y escalable, manteniéndome en constante aprendizaje y evolución.
+                    Me enfoco en escribir <strong>código limpio, reutilizable y escalable</strong>, manteniéndome en constante aprendizaje y evolución.
                     <br />
-                    He desarrollado proyectos como landing pages / tiendas online con carrito / portafolios usando tecnologías como <strong>HTML, CSS, JavaScript, TypeScript y ReactJs</strong> en el Front-End, y <strong>Python, Django, Django Rest Framework, Jwt y Postman</strong> en el Back-End.
+                    He desarrollado <strong>landing pages / tiendas online con carrito / portafolios / redes sociales.</strong>
+                    
                     <br />
                     <br />
-                    Busco participar en proyectos donde pueda aportar valor desde el diseño y desarrollo de interfaces, mejorar experiencias de usuario y <strong>crecer profesionalmente como parte de un equipo dinámico.</strong>
+                    Busco participar en proyectos donde pueda aportar valor en el diseño, en funcionalidades, en desarrollo de interfaces, en la mejora continua de la experiencias de usuario, en la estructuración y gestión de proyectos, <strong>y principalmente, cumplir mi sueño de trabajar como programador.</strong>
+
+                    <ul>
+                        <h3>Algunos de los desafíos que me encontré:</h3>
+
+                        <li><strong>Crear y relacionar modelos en una base de datos de usuarios</strong>, para luego relacionar varias instancias del mismo entre sí.</li>
+                        <li>Realizar la conección entre Frontend y Backend a través de una <strong>API.</strong></li>
+                        <li>Optimización de imagenes, componentes, archivos css, etc.</li>
+                        <li>Inicios de sesion y registrarse, con almacenamiento y <strong>seguridad en los datos.</strong></li>
+                        <li>Organización para lograr una <strong>escalabilidad a largo plazo.</strong></li>
+                        <li>Rediseño de páginas y componentes, combinaciones de paleta de colores.</li>
+                        <li>Configuración de <strong>variables/funciones globales.</strong></li>
+                        <li>Diseños responsivos <strong>(Mediaquerys).</strong></li>
+
+                    </ul>
+
                 </span>
             </div>
         </div>

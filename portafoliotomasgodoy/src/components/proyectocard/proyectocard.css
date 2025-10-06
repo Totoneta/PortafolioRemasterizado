@@ -5,7 +5,7 @@
     flex-direction: column;
     margin: 0 auto;
     gap: 1rem;
-    padding: 3rem;
+    padding: 5rem 0;
 }
 
 /* Cards */
@@ -44,12 +44,12 @@
 
 .proyectocardcontainertexto>h3 {
     font-size: 35px;
-    color: #00ffe1;
+    color: #4169fb;
 }
 
 .proyectocardcontainertexto>a {
     padding: 1rem 2rem;
-    background-color: #00a895;
+    background-color: #4169fb;
     border-radius: 10px;
     text-decoration: none;
     transition: all .3s;
@@ -58,7 +58,7 @@
 }
 
 .proyectocardcontainertexto>a:hover {
-    background-color: #00ffe1;
+    background-color: #4169fb;
     scale: 105%;
 }
 

@@ -3,10 +3,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 2rem 1rem 2rem 1rem;
-    gap: 2rem;
+    gap: 7rem;
     text-align: center;
-    background: linear-gradient(#000000, #c3c3c3);
+    height: 40dvh;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
 }
 
 /* --------------------------------------------- */
@@ -21,12 +22,12 @@
     background-color: #fff;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 0px 0px 10px #fff;
 }
 
 .sobremifotocontainer>img {
-    width: 20rem;
-    height: 20rem;
-    filter: drop-shadow(0px 0px 3px #ffffff)
+    width: 25rem;
+    height: 25rem;
 }
 
 /* --------------------------------------------- */
@@ -50,12 +51,12 @@
 
 /* Disponible */
 .disponibledesc {
-    background-color: #008000;
+    background-color: #001048;
     padding: .3rem;
     font-size: 16px;
     border-radius: 10px;
-    color: #00ff00;
-    border: 1px solid #00ff00;
+    color: #4169fb;
+    border: 1px solid #4169fb;
 }
 
 /* Datos */
@@ -81,6 +82,7 @@
     justify-content: start;
     align-items: center;
     gap: 1rem;
+    margin: 1rem 0;
 }
 
 .redes>a>img {
