@@ -55,8 +55,8 @@
     padding: .3rem;
     font-size: 16px;
     border-radius: 10px;
-    color: #4169fb;
-    border: 1px solid #4169fb;
+    color: #8aa3ff;
+    border: 1px solid #8aa3ff;
 }
 
 /* Datos */
@@ -94,6 +94,7 @@
     border: 1px solid #2f3f5c;
     border-radius: 6px;
 }
+
 .redes>a>img:hover {
     scale: 110%;
 }
@@ -120,28 +121,39 @@
     .sobremicontainer {
         padding: 1rem .5rem;
         gap: .5rem;
+        margin-top: 3rem;
+        height: 110dvh;
         flex-direction: column;
         text-align: center;
     }
 
     /* Img */
+    .sobremifotocontainer {
+        width: 19rem;
+        height: 19rem;
+    }
+
     .sobremifotocontainer>img {
         width: 19rem;
         height: 19rem;
     }
 
     /* Info Personal */
-    .sobremitextocontainer>h1 {
-        font-size: 30px;
-        padding: 2rem 0 0 0;
+    .sobremitextocontainer {
+        align-items: center;
+        gap: .9rem;
+        padding: 0;
+        font-size: 1rem;
     }
 
-    .sobremitextocontainer {
-    align-items: center;
-    gap: .9rem;
-    padding: 0;
-    font-size: 1rem;
-}
+    .sobremitextocontainer>h1 {
+        font-size: 40px;
+        padding: 2rem 0 0 0;
+    }
+    .sobremitextocontainer>p {
+        font-size: 10px;
+    }
+
 }
 
 

@@ -53,38 +53,38 @@ export const estudiosfinalizados = [
 export const estudiosproximos = [
     {
         id: 210,
-        titulo: 'Data Analitycs (En proceso)',
+        titulo: 'Data Analitycs (Cursando)',
         institucion: 'Coderhouse',
         fecha: '25 de agosto año 2025 - 28 de octubre año 2025',
     },
     {
         id: 211,
-        titulo: 'NodeJs Backend (Próximo)',
+        titulo: 'NodeJs Backend (Próx.)',
         institucion: 'Coderhouse',
         fecha: '25 de agosto año 2025 - 28 de octubre año 2025',
     },
     {
         id: 212,
-        titulo: 'Data Science I (Próximo)',
+        titulo: 'Data Science I (Próx.)',
         institucion: 'Coderhouse',
         fecha: '3 de noviembre año 2025 - 2 de febrero año 2026',
     },
     {
         id: 213,
-        titulo: 'Data Science II (Próximo)',
+        titulo: 'Data Science II (Próx.)',
         institucion: 'Coderhouse',
         fecha: '26 de febrero año 2026 - 18 de junio año 2026',
     },
     {
         id: 214,
-        titulo: 'Data Science III (Próximo)',
-        institucion: 'Coderhouse',
-        fecha: '11 de julio año 2026 - 1 de agosto año 2026',
+        titulo: 'Tecnicatura programación (Próx.)',
+        institucion: 'Universidad Tecnológica Nacional (UTN - Rosario)',
+        fecha: 'marzo año 2026 - diciembre año 2027',
     },
     {
         id: 215,
-        titulo: 'Tecnicatura en programación (Próximo)',
-        institucion: 'Universidad Tecnológica Nacional (UTN - Rosario)',
-        fecha: 'marzo año 2026 - diciembre año 2027',
+        titulo: 'Data Science III (Próx.)',
+        institucion: 'Coderhouse',
+        fecha: '11 de julio año 2026 - 1 de agosto año 2026',
     },
 ]

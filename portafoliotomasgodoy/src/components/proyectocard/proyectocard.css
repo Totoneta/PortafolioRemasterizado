@@ -53,12 +53,12 @@
 
 .proyectocardcontainertexto>h3 {
     font-size: 35px;
-    color: #4169fb;
+    color: #8aa3ff;
 }
 
 .proyectocardcontainertexto>a {
     padding: 1rem 2rem;
-    background-color: #4169fb;
+    background-color: #8aa3ff;
     border-radius: 10px;
     text-decoration: none;
     transition: all .3s;
@@ -67,8 +67,13 @@
 }
 
 .proyectocardcontainertexto>a:hover {
-    background-color: #4169fb;
+    background-color: #8aa3ff;
     scale: 105%;
+}
+
+.proyectocardcontainertexto>p {
+    font-size: 10px;
+    color: #e0e0e0;
 }
 
 /* Tecnologias */

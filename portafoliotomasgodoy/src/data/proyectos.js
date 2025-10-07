@@ -23,7 +23,7 @@ export let proyectos = [
     {
         id: 102,
         titulo: 'The Lobby',
-        descripcion: 'Red Social desarrollada en React.js y Typescript, conectada a un backend en Django Rest Framework y autenticación con JWT. El app permite a los usuarios agregarse entre sí y modificar la informacion personal en su perfil. El diseño es básico, en este proyecto me centré principalmente en el backend.',
+        descripcion: 'Red Social desarrollada en React.js y Typescript, conectada a un backend en Django Rest Framework y autenticación con JWT. El app permite a los usuarios agregarse entre sí y modificar la informacion personal en su perfil. .',
         imgpath: './imgs/proyectos/thelobby.webp',
         enalceaproyecto: 'https://thelobbygaming.netlify.app/',
         enlacevideo: './videos/thelobby.mp4',
