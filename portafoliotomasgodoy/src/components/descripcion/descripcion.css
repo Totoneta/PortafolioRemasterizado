@@ -2,9 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: max-content;
-    margin: 0 auto;
-    padding: 2rem;
+    width: 100%;
+    padding: 8rem 0;
     text-align: left;
 }
 
@@ -12,7 +11,7 @@
 .sobremisoydescripcioncontainer {
     padding: 1.5rem;
     color: #fff;
-    max-width: 65rem;
+    width: 70rem;
 }
 
 .sobremisoydescripcioncontainer>h3 {
@@ -37,8 +36,8 @@
 }
 
 .sobremisoydescripcioncontainer>span>ul>h3 {
-    font-size: 25px;
-    margin-top: 1rem;
+    font-size: 30px;
+    margin-top: 2rem;
     margin-bottom: .5rem;
 }
 

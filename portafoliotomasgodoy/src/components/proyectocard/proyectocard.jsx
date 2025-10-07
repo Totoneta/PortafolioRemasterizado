@@ -12,7 +12,7 @@ export default function ProyectoCard() {
 
     const tecnologias = [...tecnologiasbackend, ...tecnologiasfrontend, ...tecnologiasenequipo];
 
-    const [videoimagen, setVideoImagen] = useState(false)
+    const [videoimagen, setVideoImagen] = useState(null)
 
     return (
         <section className='proyectocardcontainer' id='proyectos'>
@@ -22,7 +22,23 @@ export default function ProyectoCard() {
                     return (
                         <div key={e.id} className="proyectocardsubcontainer">
 
-                            <img src={e.imgpath} alt={e.titulo} />
+                            <div
+                                className="imagenvideocontainer"
+                                onMouseEnter={() => setVideoImagen(e.id)}
+                                onMouseLeave={() => setVideoImagen(null)}
+                            >
+                                {
+                                    videoimagen === e.id ?
+                                        <video
+                                            src={e.enlacevideo}
+                                            autoPlay
+                                            muted
+                                            loop
+                                        />
+                                        :
+                                        <img src={e.imgpath} alt={e.titulo} />
+                                }
+                            </div>
 
                             <aside className='proyectocards'>
                                 <div className="proyectocardcontainertexto">

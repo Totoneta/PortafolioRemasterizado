@@ -13,7 +13,6 @@ export function InfoPersonal() {
             <div className="sobremitextocontainer">
                 <h1>Tomás Godoy</h1>
                 <span className='disponibledesc'>Disponible para trabajar</span>
-                <p>Teléfono personal: <strong>+549-0341-2006991</strong></p>
                 <p>Correo electrónico: <strong>totogodoydev@hotmail.com</strong></p>
                 <p>País de residencia: <img src="./imgs/argentina-flag.webp" alt="Argentina" /><strong>Argentina</strong> </p>
                 <p>Provincia: <strong>Santa Fe</strong> </p>

@@ -2,7 +2,7 @@ export const tecnologiasbackend = [
     {
         id: 0,
         nombre: 'PYTHON',
-        url: './svg/python.svg'
+        url: './imgs/tecnologias/python.png'
     },
     {
         id: 1,
