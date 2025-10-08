@@ -4,93 +4,51 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 15rem;
-    color: #4169fb;
-    border: 2px solid #4169fb;
+    height: 13rem;
+    color: #fff;
     background-color: #000;
     padding: 1rem;
     gap: 2rem;
     transition: all .3s;
     text-align: center;
+    border: 2px solid #000;
 }
 
 .misestudiostarjetacontainer:hover {
-    color: #fff;
     border: 2px solid #fff;
-}   
+}
 
 .misestudiostarjetacontainer>h3 {
-    font-size: 36px;
+    font-size: 25px;
 }
 
 .misestudiostarjetacontainer>h4 {
-    font-size: 18px;
-
-}
- 
-.misestudiostarjetacontainer>span {
     font-size: 16px;
-
 }
 
-/* Mediasquerys 350px a 700px */
-@media (min-width: 350px) and (max-width: 700px) {
-    .misestudiostarjetacontainer {
-        width: 100%;
-        height: 13rem;
-        padding: .3rem;
-        gap: 1rem;
-    }
-    
-    .misestudiostarjetacontainer:hover {
-        scale: 105%;
-        color: #04ae9a;
-        border: 2px solid #04ae9a;
-    }   
-    
-    .misestudiostarjetacontainer>h3 {
-        font-size: 22px;
-    }
-    
-    .misestudiostarjetacontainer>h4 {
-        font-size: 16px;
-    
-    }
-     
-    .misestudiostarjetacontainer>span {
-        font-size: 14px;
-    }
-
+.misestudiostarjetacontainer>span {
+    font-size: 14px;
 }
 
 /* --------------------------------------------- */
 
-/* Mediaquerys 701px a 1300px */
-@media (min-width: 701px) and (max-width: 1300px) {
-
+/* Mediaquerys */
+@media (min-width: 350px) and (max-width: 499px) {
     .misestudiostarjetacontainer {
-        width: 100%;
-        height: 15rem;
-        padding: .3rem;
-        gap: 2rem;
+        height: 12rem;
+        padding: 1rem;
+        gap: 1rem;
     }
-    
-    .misestudiostarjetacontainer:hover {
-        scale: 105%;
-        color: #04ae9a;
-        border: 2px solid #04ae9a;
-    }   
-    
+
     .misestudiostarjetacontainer>h3 {
-        font-size: 36px;
-    }
-    
-    .misestudiostarjetacontainer>h4 {
-        font-size: 20px;
-    
-    }
-     
-    .misestudiostarjetacontainer>span {
         font-size: 18px;
+    }
+
+    .misestudiostarjetacontainer>h4 {
+        font-size: 12px;
+    }
+
+    .misestudiostarjetacontainer>span {
+        font-size: 12px;
     }
 }

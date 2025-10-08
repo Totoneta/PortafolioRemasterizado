@@ -72,7 +72,7 @@ export default function ProyectoCard() {
                                         }
                                     </div>
                                     <Link to={e.enalceaproyecto} target='_blank'>Visitar Proyecto</Link>
-                                    <p>*Podes ver la página poniendo el mouse encima, o en smartphone tocando la imagen.</p>
+                                    <p>*Visualización de la página colocando el mouse encima, o en smartphone haciendo click en la imagen.</p>
                                 </div>
 
 

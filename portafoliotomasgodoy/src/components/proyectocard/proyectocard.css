@@ -93,8 +93,8 @@
 
 /* --------------------------------------------- */
 
-/* Mediaquerys 350px a 700px */
-@media (min-width: 350px) and (max-width: 700px) {
+/* Mediaquerys */
+@media (min-width: 350px) and (max-width: 499px) {
 
     .proyectocardcontainer {
         display: flex;

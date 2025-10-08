@@ -11,6 +11,7 @@ export function Descripcion() {
                     <br />
                     Me enfoco en escribir <strong>código limpio, reutilizable y escalable</strong>, manteniéndome en constante aprendizaje y evolución.
                     <br />
+                    <br />
                     He desarrollado <strong>landing pages / tiendas online con carrito / portafolios / redes sociales.</strong>
                     
                     <br />
@@ -18,7 +19,7 @@ export function Descripcion() {
                     Busco participar en proyectos donde pueda aportar valor en el diseño, en funcionalidades, en desarrollo de interfaces, en la mejora continua de la experiencias de usuario, en la estructuración y gestión de proyectos, <strong>y principalmente, cumplir mi sueño de trabajar como programador.</strong>
 
                     <ul>
-                        <h3>PRINCIPALES DESAFÍOS SUPERADOS</h3>
+                        <h3>DESAFÍOS SUPERADOS</h3>
 
                         <li><strong>Crear y relacionar modelos en una base de datos de usuarios</strong>, para luego relacionar varias instancias del mismo entre sí.</li>
                         <li>Realizar la conección entre Frontend y Backend a través de una <strong>API.</strong></li>
