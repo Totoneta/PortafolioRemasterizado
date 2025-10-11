@@ -172,6 +172,7 @@
 
     .proyectocardcontainertexto>span {
         font-size: 25px;
+        width: 80%;
     }
 
     .proyectocardcontainertexto>a {

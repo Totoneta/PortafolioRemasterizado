@@ -81,5 +81,45 @@
     .sobremisoydescripcioncontainer>span>ul>li>strong {
         font-size: 15px;
     }
+}
 
+/* --------------------------------------------- */
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .sobremisoycontainer {
+        padding: 1rem .3rem;
+    }
+    
+    .sobremisoydescripcioncontainer {
+        padding: .5rem;
+        width: 30rem;
+    }
+
+    .sobremisoydescripcioncontainer>span>ul {
+        gap: .5rem;
+    }
+
+
+    .sobremisoydescripcioncontainer>span>strong,
+    .sobremisoydescripcioncontainer>span>ul>li>strong {
+        font-size: 15px;
+    }
+}
+
+/* --------------------------------------------- */
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .sobremisoycontainer {
+        padding: 1rem .3rem;
+    }
+    
+    .sobremisoydescripcioncontainer {
+        padding: .5rem;
+        width: 45rem;
+    }
+
+    .sobremisoydescripcioncontainer>span>strong,
+    .sobremisoydescripcioncontainer>span>ul>li>strong {
+        font-size: 15px;
+    }
 }

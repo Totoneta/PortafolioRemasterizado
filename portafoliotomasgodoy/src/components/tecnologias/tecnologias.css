@@ -73,7 +73,7 @@
         padding: 2rem 0;
         gap: 1rem;
     }
-    
+
     .sobremitecnologiassubcontainer {
         gap: 1rem;
     }
@@ -95,4 +95,54 @@
         height: 1.5rem;
     }
 
+}
+
+/* --------------------------------------------- */
+
+@media (min-width: 500px) and (max-width: 799px) {
+    .sobremitecnologiassubcontainer {
+        gap: 2rem;
+    }
+
+    .sobremitecnologiacontainercard {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .sobremitecnologiacontainercard>h3 {
+        font-size: 20px;
+    }
+
+    .sobremitecnologia {
+        gap: .5rem;
+    }
+
+    .sobremitecnologia>img {
+        height: 2.5rem;
+    }
+}
+
+/* --------------------------------------------- */
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    .sobremitecnologiassubcontainer {
+        gap: 3rem;
+    }
+
+    .sobremitecnologiacontainercard {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .sobremitecnologiacontainercard>h3 {
+        font-size: 20px;
+    }
+
+    .sobremitecnologia {
+        gap: .5rem;
+    }
+
+    .sobremitecnologia>img {
+        height: 3rem;
+    }
 }
