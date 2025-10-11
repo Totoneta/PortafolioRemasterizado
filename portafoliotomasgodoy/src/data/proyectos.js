@@ -56,7 +56,7 @@ export let proyectos = [
         descripcion: 'Aplicación de lista de tareas con funcionalidad de inicio de sesión. Los usuarios pueden agregar, editar y eliminar tareas, y el sistema guarda sus datos de manera segura. Ideal para organizar el día a día de forma sencilla y eficiente.',
         imgpath: './imgs/proyectos/todolistproyecto.webp',
         enalceaproyecto: 'https://todolistsesion-1.onrender.com',
-        enlacevideo: '',
+        enlacevideo: './videos/todoapp.mp4',
         tech: ['DJANGO', 'CSS', 'SQLITE3'],
         responsive: true,
     },
