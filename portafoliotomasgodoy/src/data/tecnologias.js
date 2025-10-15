@@ -88,4 +88,9 @@ export const estudiandoactualmente = [
         nombre: 'EXPRESS',
         url: './imgs/tecnologias/express.png'
     },
+    {
+        id: 32,
+        nombre: 'NextJs',
+        url: './imgs/tecnologias/nextjs.webp'
+    },
 ]
